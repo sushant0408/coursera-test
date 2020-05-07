@@ -1,0 +1,84 @@
+*{
+	font-family: 'Lora';
+}
+body{
+	font-size: 16px;
+	color: #111111;
+	background-color: #fefefe;
+}
+.container-fluid{
+	padding-bottom: 10px;
+}
+#header-nav{
+	background-color: #333333;
+	border-radius: 0;
+	border:0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	color:#ffffff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+.navbar-collapse{
+	border-bottom: 0;
+}
+
+#nav-list a{
+	color:#ffffff;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #e7e7e7
+}
+#content h3{
+	text-align:center; 
+	font-weight: bold;
+}
+#content{
+	align-content: center;
+	width: 50%
+	color:#;
+}
+h2 {
+	font-size: 30px;
+}
+
+.row{
+	
+	background-color: #333333;
+	padding:20px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+.row p {
+	color:#bbbbbb;
+}
+
+.row span{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+@media(min-width:768px){
+	#collapsable-nav a{
+		display: none;
+			}
+}
